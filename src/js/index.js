@@ -52,3 +52,5 @@ window.onload = function() {
     }
   }
 };
+
+// EXERCISE #3
