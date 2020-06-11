@@ -22,15 +22,33 @@ import "../style/index.scss";
 //   }
 // };
 
+// window.onload = function() {
+//   //While Loop
+//   var i;
+//   let sum = 0;
+//   while (i < 1000) {
+//     if (i % 3 === 0 || i % 5 === 0) {
+//       sum = sum + i;
+//       console.log(i);
+//     }
+//     console.log(sum);
+//   }
+// };
+
+// EXERCISE #2
+// Write a program that prints the numbers from 1 to 100 and for multiples of '3' print "Tic" instead of the number and for the multiples of '5' print "Toc", if the number is multiple of 3 and 5 then print “TicToc”.
 window.onload = function() {
-  //While Loop
-  var i;
-  let sum = 0;
-  while (i < 1000) {
-    if (i % 3 === 0 || i % 5 === 0) {
-      sum = sum + i;
-      console.log(i);
+  //For Loop
+  var x = 0;
+  for (x = 1; x < 100; x++) {
+    if (x % 3 == 0 && x % 5 == 0) {
+      console.log("TicToc");
+    } else if (x % 3 == 0) {
+      console.log("Tic");
+    } else if (x % 5 == 0) {
+      console.log("Toc");
+    } else {
+      console.log(x);
     }
-    console.log(sum);
   }
 };
