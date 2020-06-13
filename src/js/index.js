@@ -37,20 +37,20 @@ import "../style/index.scss";
 
 // EXERCISE #2
 // Write a program that prints the numbers from 1 to 100 and for multiples of '3' print "Tic" instead of the number and for the multiples of '5' print "Toc", if the number is multiple of 3 and 5 then print “TicToc”.
-window.onload = function() {
-  //For Loop
-  var x = 0;
-  for (x = 1; x < 100; x++) {
-    if (x % 3 == 0 && x % 5 == 0) {
-      console.log("TicToc");
-    } else if (x % 3 == 0) {
-      console.log("Tic");
-    } else if (x % 5 == 0) {
-      console.log("Toc");
-    } else {
-      console.log(x);
-    }
-  }
-};
+// window.onload = function() {
+//   //For Loop
+//   var x = 0;
+//   for (x = 1; x < 100; x++) {
+//     if (x % 3 == 0 && x % 5 == 0) {
+//       console.log("TicToc");
+//     } else if (x % 3 == 0) {
+//       console.log("Tic");
+//     } else if (x % 5 == 0) {
+//       console.log("Toc");
+//     } else {
+//       console.log(x);
+//     }
+//   }
+// };
 
 // EXERCISE #3
